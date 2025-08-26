@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">     
+    <title>Document</title>
+    <!-- daisyUI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  
+        <!--tailwind cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>  
+<body class="bg-color bg-[#F4F5F7] h-[100vh]  flex flex-col justify-center items-center">
+
+  <div class="bg-div h-[130px] w-[300px] border-2 border-red-500 bg-[url(./assets/bg.png)] bg-cover flex justify-center items-center"> 
+
+          
+     <img src="./assets/Group.png" alt=""> 
+
+  </div>   
+    
+
+  <form class=" bg-white rounded-2xl p-8 w-[350px] ">    
+        <div class="input1">
+            <label class="font-semibold"  for="">Mobile Number</label> 
+            <br>
+            <input type="text" placeholder="Enter your number" class="input bg-[#F4F5F7] mt-3 rounded-3xl" />
+
+        </div>
+        <div class="input2 mt-5">
+            <label class="font-semibold" for="">4 Digit Pin</label>
+            <br>
+            <input type="text" placeholder="Enter your 4 Digit pin" class="input bg-[#F4F5F7] mt-3 rounded-3xl" />
+
+        </div>
+<button id="BtnLogin" class="btn text-white bg-[#0874F2] mt-5 w-full rounded-3xl">Log In</button>
+
+
+
+
+       </form>
+
+<script src="./script.js"></script>
+</body>
+</html>
